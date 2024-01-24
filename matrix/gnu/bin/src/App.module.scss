@@ -1,0 +1,113 @@
+.page {
+  display: grid;
+  grid-template: auto auto / 1fr 1fr 1fr;
+  column-gap: 20px;
+  width: 1024px;
+  margin: auto;
+  padding: 20px;
+  background: #d2c9ed;
+}
+
+.title {
+  font-family: FUTURA;
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: -3px;
+  line-height: 1.1em;
+}
+
+.description {
+  font-family: FUTURA;
+  font-size: 16px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.two-columns:last-of-type {
+  justify-content: space-evenly;
+  padding-top: 24px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+}
+
+.button-showcase {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  min-width: 400px;
+}
+
+.buttons-row {
+  gap: 5px;
+  display: flex;
+  align-items: end;
+}
+
+.buttons-row:last-of-type {
+  margin-top: 15px;
+  gap: 24px;
+}
+
+.utils-showcase {
+  display: flex;
+  flex-flow: column;
+  margin-top: 20px;
+}
+
+.name-input {
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+  padding-bottom: 10px;
+}
+
+.name-input > input {
+  height: 38px;
+  flex: 1 1 180px;
+}
+
+.name-input > span {
+  height: 28px;
+  flex-grow: 1;
+}
+
+.wireframes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -4px;
+}
+
+.social-showcase {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  margin-top: 3px;
+}
